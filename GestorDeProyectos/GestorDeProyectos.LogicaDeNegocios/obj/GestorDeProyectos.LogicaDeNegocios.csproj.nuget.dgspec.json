@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj",
+        "projectName": "GestorDeProyectos.AccesoADatos",
+        "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\DELL INSPIRON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL INSPIRON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
+        "projectName": "GestorDeProyectos.EntidadesDeNegocio",
+        "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\DELL INSPIRON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL INSPIRON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj",
+        "projectName": "GestorDeProyectos.LogicaDeNegocios",
+        "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj",
+        "packagesPath": "C:\\Users\\DELL INSPIRON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL INSPIRON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj"
+              },
+              "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

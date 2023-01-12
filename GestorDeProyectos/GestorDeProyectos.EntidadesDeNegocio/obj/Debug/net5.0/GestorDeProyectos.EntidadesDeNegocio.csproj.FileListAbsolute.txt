@@ -1,0 +1,12 @@
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.deps.json
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\ref\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.csproj.AssemblyReference.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.AssemblyInfoInputs.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.AssemblyInfo.cs
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\ref\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb

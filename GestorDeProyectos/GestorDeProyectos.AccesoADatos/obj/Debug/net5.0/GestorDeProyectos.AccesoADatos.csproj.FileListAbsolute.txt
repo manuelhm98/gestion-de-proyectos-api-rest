@@ -1,0 +1,15 @@
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.deps.json
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\ref\GestorDeProyectos.AccesoADatos.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.pdb
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.AssemblyInfoInputs.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.AssemblyInfo.cs
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.csproj.CopyComplete
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\ref\GestorDeProyectos.AccesoADatos.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.pdb
