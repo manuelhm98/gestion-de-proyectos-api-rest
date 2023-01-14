@@ -28,10 +28,9 @@ namespace GestorDeProyectos.EntidadesDeNegocio
         public byte Estatus { get; set; }
         [NotMapped]
         public int Top_Aux { get; set; }
-        /*
+        
         public List<Pedido> Pedido { get; set; }
         public List<Venta> Venta { get; set; }
-        */
     }
 
     public enum Estatus_Cliente
