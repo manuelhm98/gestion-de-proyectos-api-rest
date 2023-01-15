@@ -12,7 +12,7 @@ namespace GestorDeProyectos.EntidadesDeNegocio
     public class UsuarioTarea
     {
         [Key]
-        public int IdEquipo { get; set; }
+        public int IdUsuarioTarea { get; set; }
         [ForeignKey("Usuario")]
         [Required(ErrorMessage = "Usuario es obligatorio")]
         [Display(Name = "Usuario")]

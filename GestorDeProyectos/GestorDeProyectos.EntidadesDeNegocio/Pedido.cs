@@ -13,10 +13,10 @@ namespace GestorDeProyectos.EntidadesDeNegocio
     {
         [Key]
         public int IdPedido { get; set; }
-        [Display(Name = "Fecha Pedido")]
-        public DateTime FechaPedido { get; set; }
-        [Display(Name = "Fecha Entrega")]
-        public DateTime FechaEntrega { get; set; }
+        [Display(Name = "Fecha de Pedido")]
+        public DateTime FechaDePedido { get; set; }
+        [Display(Name = "Fecha de Entrega")]
+        public DateTime FechaDeEntrega { get; set; }
         [Required(ErrorMessage = "Monto total es obligatorio")]
         public decimal MontoTotal { get; set; }
         [ForeignKey("Cliente")]

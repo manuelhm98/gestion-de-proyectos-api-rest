@@ -23,12 +23,13 @@ namespace GestorDeProyectos.EntidadesDeNegocio
         [Required(ErrorMessage = "Proyecto es obligatorio")]
         [Display(Name = "Proyecto")]
         public int IdProyecto { get; set; }
-        [Display(Name = "Fecha De Inicio")]
+        [Display(Name = "Fecha de Inicio")]
         public DateTime FechaDeInicio { get; set; }
-        [Display(Name = "Fecha De Finalizacion")]
+        [Display(Name = "Fecha de Finalizacion")]
         public DateTime FechaDeFinalizacion { get; set; }
         [Required(ErrorMessage = "Estatus es obligatorio")]
         public byte Estatus { get; set; }
+        public Proyecto Proyecto { get; set; }
         [NotMapped]
         public int Top_Aux { get; set; }
     }
