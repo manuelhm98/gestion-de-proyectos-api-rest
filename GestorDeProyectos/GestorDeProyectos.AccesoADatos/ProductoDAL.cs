@@ -9,7 +9,7 @@ using GestorDeProyectos.EntidadesDeNegocio;
 
 namespace GestorDeProyectos.AccesoADatos
 {
-    class ProductoDAL
+    public class ProductoDAL
     {
         public static async Task<int> CrearAsync(Producto pProducto)
         {
