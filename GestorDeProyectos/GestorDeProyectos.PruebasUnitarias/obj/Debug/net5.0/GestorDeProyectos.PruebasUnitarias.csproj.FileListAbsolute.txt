@@ -147,3 +147,5 @@ C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-re
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.PruebasUnitarias\obj\Debug\net5.0\ref\GestorDeProyectos.PruebasUnitarias.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.PruebasUnitarias\obj\Debug\net5.0\GestorDeProyectos.PruebasUnitarias.pdb
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.PruebasUnitarias\obj\Debug\net5.0\GestorDeProyectos.PruebasUnitarias.genruntimeconfig.cache
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.PruebasUnitarias\bin\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.dll
+C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.PruebasUnitarias\bin\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.pdb

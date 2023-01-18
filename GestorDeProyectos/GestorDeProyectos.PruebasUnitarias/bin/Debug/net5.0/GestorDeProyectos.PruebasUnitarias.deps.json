@@ -10,6 +10,7 @@
         "dependencies": {
           "GestorDeProyectos.AccesoADatos": "1.0.0",
           "GestorDeProyectos.EntidadesDeNegocio": "1.0.0",
+          "GestorDeProyectos.LogicaDeNegocios": "1.0.0",
           "MSTest.TestAdapter": "2.2.3",
           "MSTest.TestFramework": "2.2.3",
           "Microsoft.NET.Test.Sdk": "16.9.4",
@@ -1688,6 +1689,15 @@
         "runtime": {
           "GestorDeProyectos.EntidadesDeNegocio.dll": {}
         }
+      },
+      "GestorDeProyectos.LogicaDeNegocios/1.0.0": {
+        "dependencies": {
+          "GestorDeProyectos.AccesoADatos": "1.0.0",
+          "GestorDeProyectos.EntidadesDeNegocio": "1.0.0"
+        },
+        "runtime": {
+          "GestorDeProyectos.LogicaDeNegocios.dll": {}
+        }
       }
     }
   },
@@ -2662,6 +2672,11 @@
       "sha512": ""
     },
     "GestorDeProyectos.EntidadesDeNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestorDeProyectos.LogicaDeNegocios/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
