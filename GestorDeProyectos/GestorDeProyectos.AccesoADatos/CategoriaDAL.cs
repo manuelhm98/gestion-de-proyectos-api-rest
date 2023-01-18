@@ -29,6 +29,7 @@ namespace GestorDeProyectos.AccesoADatos
             {
                 var categoria = await bdContexto.Categoria.FirstOrDefaultAsync(s => s.IdCategoria == pCategoria.IdCategoria);
                 categoria.Nombre = pCategoria.Nombre;
+                categoria.Estatus = pCategoria.Estatus;
                 bdContexto.Update(categoria);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -76,6 +77,7 @@ namespace GestorDeProyectos.AccesoADatos
             pQuery = pQuery.OrderByDescending(s => s.IdCategoria).AsQueryable();
             if (pCategoria.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pCategoria.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdCategoria).AsQueryable();
             if (pCategoria.Top_Aux > 0)
                 pQuery = pQuery.Take(pCategoria.Top_Aux).AsQueryable();
             return pQuery;
