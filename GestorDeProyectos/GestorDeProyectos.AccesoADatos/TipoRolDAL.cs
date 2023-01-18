@@ -29,6 +29,7 @@ namespace GestorDeProyectos.AccesoADatos
             {
                 var tipoRol = await bdContexto.TipoRol.FirstOrDefaultAsync(s => s.IdTipoRol == pTipoRol.IdTipoRol);
                 tipoRol.Nombre = pTipoRol.Nombre;
+                tipoRol.Estatus = pTipoRol.Estatus;
                 bdContexto.Update(tipoRol);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -73,9 +74,9 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.IdTipoRol == pTipoRol.IdTipoRol);
             if (!string.IsNullOrWhiteSpace(pTipoRol.Nombre))
                 pQuery = pQuery.Where(s => s.Nombre.Contains(pTipoRol.Nombre));
-            pQuery = pQuery.OrderByDescending(s => s.IdTipoRol).AsQueryable();
             if (pTipoRol.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pTipoRol.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdTipoRol).AsQueryable();
             if (pTipoRol.Top_Aux > 0)
                 pQuery = pQuery.Take(pTipoRol.Top_Aux).AsQueryable();
             return pQuery;

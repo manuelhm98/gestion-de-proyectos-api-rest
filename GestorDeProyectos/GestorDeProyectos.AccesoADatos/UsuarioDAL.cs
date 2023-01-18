@@ -65,6 +65,7 @@ namespace GestorDeProyectos.AccesoADatos
                     usuario.Nombre = pUsuario.Nombre;
                     usuario.Apellido = pUsuario.Apellido;
                     usuario.Login = pUsuario.Login;
+                    usuario.Estatus = pUsuario.Estatus;
                     bdContexto.Update(usuario);
                     result = await bdContexto.SaveChangesAsync();
                 }
@@ -118,9 +119,9 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.Apellido.Contains(pUsuario.Apellido));
             if (!string.IsNullOrWhiteSpace(pUsuario.Login))
                 pQuery = pQuery.Where(s => s.Login.Contains(pUsuario.Login));
-            pQuery = pQuery.OrderByDescending(s => s.IdUsuario).AsQueryable();
             if (pUsuario.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pUsuario.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdUsuario).AsQueryable();
             if (pUsuario.Top_Aux > 0)
                 pQuery = pQuery.Take(pUsuario.Top_Aux).AsQueryable();
             return pQuery;

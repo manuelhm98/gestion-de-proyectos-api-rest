@@ -33,6 +33,7 @@ namespace GestorDeProyectos.AccesoADatos
                 tarea.IdProyecto = pTarea.IdProyecto;
                 tarea.FechaDeInicio = pTarea.FechaDeInicio;
                 tarea.FechaDeFinalizacion = pTarea.FechaDeFinalizacion;
+                tarea.Estatus = pTarea.Estatus;
                 bdContexto.Update(tarea);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -81,9 +82,9 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.Descripcion.Contains(pTarea.Descripcion));
             if (pTarea.IdProyecto > 0)
                 pQuery = pQuery.Where(s => s.IdProyecto == pTarea.IdProyecto);
-            pQuery = pQuery.OrderByDescending(s => s.IdTarea).AsQueryable();
             if (pTarea.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pTarea.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdTarea).AsQueryable();
             if (pTarea.Top_Aux > 0)
                 pQuery = pQuery.Take(pTarea.Top_Aux).AsQueryable();
             return pQuery;

@@ -30,6 +30,7 @@ namespace GestorDeProyectos.AccesoADatos
                 var usuarioTarea = await bdContexto.UsuarioTarea.FirstOrDefaultAsync(s => s.IdUsuarioTarea == pUsuarioTarea.IdUsuarioTarea);
                 usuarioTarea.IdUsuario = pUsuarioTarea.IdUsuario;
                 usuarioTarea.IdTarea = pUsuarioTarea.IdTarea;
+                usuarioTarea.Estatus = pUsuarioTarea.Estatus;
                 bdContexto.Update(usuarioTarea);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -76,9 +77,9 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.IdUsuario == pUsuarioTarea.IdUsuario);
             if (pUsuarioTarea.IdTarea > 0)
                 pQuery = pQuery.Where(s => s.IdTarea == pUsuarioTarea.IdTarea);
-            pQuery = pQuery.OrderByDescending(s => s.IdUsuarioTarea).AsQueryable();
             if (pUsuarioTarea.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pUsuarioTarea.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdUsuarioTarea).AsQueryable();
             if (pUsuarioTarea.Top_Aux > 0)
                 pQuery = pQuery.Take(pUsuarioTarea.Top_Aux).AsQueryable();
             return pQuery;

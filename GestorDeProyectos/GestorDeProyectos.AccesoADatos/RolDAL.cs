@@ -30,6 +30,7 @@ namespace GestorDeProyectos.AccesoADatos
                 var rol = await bdContexto.Rol.FirstOrDefaultAsync(s => s.IdRol == pRol.IdRol);
                 rol.Nombre = pRol.Nombre;
                 rol.IdTipoRol = pRol.IdTipoRol;
+                rol.Estatus = pRol.Estatus;
                 bdContexto.Update(rol);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -76,9 +77,9 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.Nombre.Contains(pRol.Nombre));
             if (pRol.IdTipoRol > 0)
                 pQuery = pQuery.Where(s => s.IdTipoRol == pRol.IdTipoRol);
-            pQuery = pQuery.OrderByDescending(s => s.IdRol).AsQueryable();
             if (pRol.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pRol.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdRol).AsQueryable();
             if (pRol.Top_Aux > 0)
                 pQuery = pQuery.Take(pRol.Top_Aux).AsQueryable();
             return pQuery;

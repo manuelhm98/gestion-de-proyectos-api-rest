@@ -30,6 +30,7 @@ namespace GestorDeProyectos.AccesoADatos
                 var equipo = await bdContexto.Equipo.FirstOrDefaultAsync(s => s.IdEquipo == pEquipo.IdEquipo);
                 equipo.Nombre = pEquipo.Nombre;
                 equipo.IdUsuario = pEquipo.IdUsuario;
+                equipo.Estatus = pEquipo.Estatus;
                 bdContexto.Update(equipo);
                 result = await bdContexto.SaveChangesAsync();
             }
@@ -76,9 +77,9 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.Nombre.Contains(pEquipo.Nombre));
             if (pEquipo.IdUsuario > 0)
                 pQuery = pQuery.Where(s => s.IdUsuario == pEquipo.IdUsuario);
-            pQuery = pQuery.OrderByDescending(s => s.IdEquipo).AsQueryable();
             if (pEquipo.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pEquipo.Estatus);
+            pQuery = pQuery.OrderByDescending(s => s.IdEquipo).AsQueryable();
             if (pEquipo.Top_Aux > 0)
                 pQuery = pQuery.Take(pEquipo.Top_Aux).AsQueryable();
             return pQuery;
