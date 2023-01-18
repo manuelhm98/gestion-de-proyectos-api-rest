@@ -162,26 +162,5 @@ namespace GestorDeProyectos.AccesoADatos
             }
             return usuario;
         }
-
-        public static async Task<int> CambiarPasswordAsync(Usuario pUsuario, string pPasswordAnt)
-        {
-            int result = 0;
-            var usuarioPassAnt = new Usuario { Password = pPasswordAnt };
-            EncriptarMD5(usuarioPassAnt);
-            using (var bdContexto = new BDContexto())
-            {
-                var usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.IdUsuario == pUsuario.IdUsuario);
-                if (usuarioPassAnt.Password == usuario.Password)
-                {
-                    EncriptarMD5(pUsuario);
-                    usuario.Password = pUsuario.Password;
-                    bdContexto.Update(usuario);
-                    result = await bdContexto.SaveChangesAsync();
-                }
-                else
-                    throw new Exception("El Password actual es incorrecto");
-            }
-            return result;
-        }
     }
 }
