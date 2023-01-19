@@ -84,6 +84,8 @@ namespace GestorDeProyectos.AccesoADatos
                 pQuery = pQuery.Where(s => s.Precio == pProducto.Precio);
             if (pProducto.CantidadDisponible > 0)
                 pQuery = pQuery.Where(s => s.CantidadDisponible == pProducto.CantidadDisponible);
+            if (pProducto.IdCategoria > 0)
+                pQuery = pQuery.Where(s => s.IdCategoria == pProducto.IdCategoria);
             if (pProducto.Estatus > 0)
                 pQuery = pQuery.Where(s => s.Estatus == pProducto.Estatus);
             pQuery = pQuery.OrderByDescending(s => s.IdProducto).AsQueryable();

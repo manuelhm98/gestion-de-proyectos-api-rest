@@ -2468,6 +2468,20 @@
         "runtime": {
           "bin/placeholder/GestorDeProyectos.EntidadesDeNegocio.dll": {}
         }
+      },
+      "GestorDeProyectos.LogicaDeNegocios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GestorDeProyectos.AccesoADatos": "1.0.0",
+          "GestorDeProyectos.EntidadesDeNegocio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestorDeProyectos.LogicaDeNegocios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestorDeProyectos.LogicaDeNegocios.dll": {}
+        }
       }
     }
   },
@@ -8544,12 +8558,18 @@
       "type": "project",
       "path": "../GestorDeProyectos.EntidadesDeNegocio/GestorDeProyectos.EntidadesDeNegocio.csproj",
       "msbuildProject": "../GestorDeProyectos.EntidadesDeNegocio/GestorDeProyectos.EntidadesDeNegocio.csproj"
+    },
+    "GestorDeProyectos.LogicaDeNegocios/1.0.0": {
+      "type": "project",
+      "path": "../GestorDeProyectos.LogicaDeNegocios/GestorDeProyectos.LogicaDeNegocios.csproj",
+      "msbuildProject": "../GestorDeProyectos.LogicaDeNegocios/GestorDeProyectos.LogicaDeNegocios.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "GestorDeProyectos.AccesoADatos >= 1.0.0",
       "GestorDeProyectos.EntidadesDeNegocio >= 1.0.0",
+      "GestorDeProyectos.LogicaDeNegocios >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -8596,6 +8616,9 @@
             },
             "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
               "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
+            },
+            "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {
+              "projectPath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj"
             }
           }
         }

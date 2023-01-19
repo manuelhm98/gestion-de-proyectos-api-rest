@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GestorDeProyectos.AccesoADatos\GestorDeProyectos.AccesoADatos.csproj" />
     <ProjectReference Include="..\GestorDeProyectos.EntidadesDeNegocio\GestorDeProyectos.EntidadesDeNegocio.csproj" />
+    <ProjectReference Include="..\GestorDeProyectos.LogicaDeNegocios\GestorDeProyectos.LogicaDeNegocios.csproj" />
   </ItemGroup>
 
 </Project>
