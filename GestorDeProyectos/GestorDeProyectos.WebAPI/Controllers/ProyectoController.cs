@@ -14,6 +14,8 @@ namespace GestorDeProyectos.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+
     public class ProyectoController : ControllerBase
     {
         private ProyectoBL proyectoBL = new ProyectoBL();
