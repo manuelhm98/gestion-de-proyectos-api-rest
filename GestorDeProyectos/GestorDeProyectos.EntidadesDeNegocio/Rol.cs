@@ -13,9 +13,9 @@ namespace GestorDeProyectos.EntidadesDeNegocio
     {
         [Key]
         public int IdRol { get; set; }
-        [ForeignKey("Tipo Rol")]
+        [ForeignKey("TipoRol")]
         [Required(ErrorMessage = "Tipo Rol es obligatorio")]
-        [Display(Name = "Tipo Rol")]
+        [Display(Name = "TipoRol")]
         public int IdTipoRol { get; set; }
         [Required(ErrorMessage = "Nombre es obligatorio")]
         [StringLength(20, ErrorMessage = "Maximo 20 caracteres")]
