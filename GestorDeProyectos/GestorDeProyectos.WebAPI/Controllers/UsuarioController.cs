@@ -113,5 +113,22 @@ namespace GestorDeProyectos.WebAPI.Controllers
                 return Unauthorized();
             }
         }
+
+        [HttpPost("CambiarPassword")]
+        public async Task<ActionResult> CambiarPassword([FromBody] object pUsuario)
+        {
+            try
+            {
+                var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                string strUsuario = JsonSerializer.Serialize(pUsuario);
+                Usuario usuario = JsonSerializer.Deserialize<Usuario>(strUsuario, option);
+                await usuarioBL.CambiarPasswordAsync(usuario, usuario.ConfirmPassword_aux);
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
     }
 }
