@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using GestorDeProyectos.WebAPI.Auth;
 using GestorDeProyectos.EntidadesDeNegocio;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
@@ -19,6 +20,13 @@ namespace GestorDeProyectos.WebAPI.Controllers
     public class UsuarioController : ControllerBase
     {
         private UsuarioBL usuarioBL = new UsuarioBL();
+
+        private readonly IJwtAuthenticationService authService;
+
+        public UsuarioController(IJwtAuthenticationService pAuthService)
+        {
+            authService = pAuthService;
+        }
 
         [HttpGet]
         public async Task<IEnumerable<Usuario>> Get()
@@ -85,6 +93,25 @@ namespace GestorDeProyectos.WebAPI.Controllers
             string strUsuario = JsonSerializer.Serialize(pUsuario);
             Usuario usuario = JsonSerializer.Deserialize<Usuario>(strUsuario, option);
             return await usuarioBL.BuscarAsync(usuario);
+        }
+
+        [HttpPost("Login")]
+        [AllowAnonymous]
+        public async Task<ActionResult> Login([FromBody] object pUsuario)
+        {
+            var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            string strUsuario = JsonSerializer.Serialize(pUsuario);
+            Usuario usuario = JsonSerializer.Deserialize<Usuario>(strUsuario, option);
+            Usuario usuario_auth = await usuarioBL.LoginAsync(usuario);
+            if (usuario_auth != null && usuario_auth.IdUsuario > 0 && usuario.Login == usuario_auth.Login)
+            {
+                var token = authService.Authenticate(usuario_auth);
+                return Ok(token);
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
     }
 }
