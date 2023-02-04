@@ -26,7 +26,7 @@ namespace GestorDeProyectos.AccesoADatos
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuiler)
         {
-            optionBuiler.UseSqlServer(@"");
+            optionBuiler.UseSqlServer(@"Data Source=JENNI;Initial Catalog=GestorDeProyectos;Integrated Security=True");
         }
     }
 

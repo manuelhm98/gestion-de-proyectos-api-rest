@@ -13,7 +13,7 @@ namespace GestorDeProyectos.LogicaDeNegocios.Tests
     [TestClass()]
     public class UsuarioBLTests
     {
-        private static Usuario usuarioInicial = new Usuario { IdUsuario = 6, IdRol = 1, Nombre = "Ejemplo", Apellido = "Ejemplo", Login = "Ejemplo1234", Password = "123456", Estatus = 1 };
+        private static Usuario usuarioInicial = new Usuario { IdUsuario = 3, Nombre = "Ejemplo", Apellido = "Ejemplo", Login = "Ejemplo1234", Password = "123456", Estatus = 1 };
 
         [TestMethod()]
         public async Task T1CrearAsyncTest()
@@ -81,8 +81,8 @@ namespace GestorDeProyectos.LogicaDeNegocios.Tests
             usuario.IdRol = 1;
             usuario.Nombre = "E";
             usuario.Apellido = "E";
+            usuario.Login = "E";
             usuario.Estatus = 1;
-            usuario.Top_Aux = 10;
             var resultUsuario = await new UsuarioBL().BuscarIncluirRolesAsync(usuario);
             Assert.AreNotEqual(0, resultUsuario.Count);
             var ultimoUsuario = resultUsuario.FirstOrDefault();
@@ -100,7 +100,18 @@ namespace GestorDeProyectos.LogicaDeNegocios.Tests
         }
 
         [TestMethod()]
-        public async Task T7EliminarAsyncTest()
+        public async Task T8CambiarPasswordAsyncTest()
+        {
+            var usuario = new Usuario();
+            usuario.IdUsuario = usuarioInicial.IdUsuario;
+            string nuevoPass = "1234567";
+            usuario.Password = nuevoPass;
+            var resultUsuario = await new UsuarioBL().CambiarPasswordAsync(usuario, usuarioInicial.Password);
+            Assert.AreNotEqual(0, resultUsuario);
+        }
+
+        [TestMethod()]
+        public async Task T9EliminarAsyncTest()
         {
             var usuario = new Usuario();
             usuario.IdUsuario = usuarioInicial.IdUsuario;

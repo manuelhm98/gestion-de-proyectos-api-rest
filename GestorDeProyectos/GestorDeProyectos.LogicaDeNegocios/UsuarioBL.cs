@@ -41,10 +41,14 @@ namespace GestorDeProyectos.LogicaDeNegocios
             return await UsuarioDAL.BuscarAsync(pUsuario);
         }
         #endregion
-
         public async Task<Usuario> LoginAsync(Usuario pUsuario)
         {
             return await UsuarioDAL.LoginAsync(pUsuario);
+        }
+
+        public async Task<int> CambiarPasswordAsync(Usuario pUsuario, string pPasswordAnt)
+        {
+            return await UsuarioDAL.CambiarPasswordAsync(pUsuario, pPasswordAnt);
         }
 
         public async Task<List<Usuario>> BuscarIncluirRolesAsync(Usuario pUsuario)
