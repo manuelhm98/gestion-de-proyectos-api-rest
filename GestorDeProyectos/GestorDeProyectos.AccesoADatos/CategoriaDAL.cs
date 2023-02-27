@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 
 namespace GestorDeProyectos.AccesoADatos
 {
@@ -56,6 +57,30 @@ namespace GestorDeProyectos.AccesoADatos
                 categoria = await bdContexto.Categoria.FirstOrDefaultAsync(s => s.IdCategoria == pCategoria.IdCategoria);
             }
             return categoria;
+        }
+
+        public static async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string name = "")
+        {
+
+            var model = new ListPagCategoria();
+            using (var bdContexto = new BDContexto())
+            {
+                var categorias = (from Categoria in bdContexto.Categoria
+                                  where Categoria.Estatus == 1 && Categoria.Nombre.Contains(name)
+                                  select Categoria).OrderByDescending(x => x.IdCategoria)
+                             .Skip((page - 1) * pageSize)
+                             .Take(pageSize).ToList();
+
+                int totalRegistros = (from Categoria in bdContexto.Categoria
+                                      where Categoria.Estatus == 1
+                                      select Categoria).Count();
+
+                model.Categorias = categorias;
+                model.paginaActual = page;
+                model.TotalRegistros = (int)Math.Ceiling((double)totalRegistros / pageSize);
+                model.RegistroPorPagina = pageSize;
+            }
+            return model;
         }
 
         public static async Task<List<Categoria>> ObtenerTodosAsync()
