@@ -6,10 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
-using GestorDeProyectos.AccesoADatos;
 
 namespace GestorDeProyectos.WebAPI.Controllers
 {
@@ -21,86 +21,16 @@ namespace GestorDeProyectos.WebAPI.Controllers
     {
         private CategoriaBL categoriaBL = new CategoriaBL();
 
-        private readonly BDContexto contexto;
-
-        public CategoriaController(BDContexto context)
+        [HttpGet]
+        public async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string mueble = "")
         {
-            contexto = context;
+            return await categoriaBL.ListPagCategoria(page, pageSize, mueble);
         }
 
         [HttpGet]
-        public async Task<ActionResult<PaginadorGenerico<Categoria>>> Get(string buscar = "", string orden = "IdCategoria", string tipo_orden = "ASC", int pagina = 1, int registros_por_pagina = 10)
+        public async Task<IEnumerable<Categoria>> Get()
         {
-            List<Categoria> Categorias;
-            PaginadorGenerico<Categoria> PaginadorCategorias;
-
-            Categorias = contexto.Categoria.ToList();
-
-            if (!string.IsNullOrEmpty(buscar))
-            {
-                foreach (var item in buscar.Split(new char[] { ' ' },
-                         StringSplitOptions.RemoveEmptyEntries))
-                {
-                    Categorias = Categorias.Where(x => x.Nombre.Contains(item)).ToList();
-                }
-            }
-
-            switch (orden)
-            {
-                case "IdCategoria":
-                    if (tipo_orden.ToLower() == "desc")
-                        Categorias = Categorias.OrderByDescending(x => x.IdCategoria).ToList();
-                    else if (tipo_orden.ToLower() == "asc")
-                        Categorias = Categorias.OrderBy(x => x.IdCategoria).ToList();
-                    break;
-
-                case "Nombre":
-                    if (tipo_orden.ToLower() == "desc")
-                        Categorias = Categorias.OrderByDescending(x => x.Nombre).ToList();
-                    else if (tipo_orden.ToLower() == "asc")
-                        Categorias = Categorias.OrderBy(x => x.Nombre).ToList();
-                    break;
-
-                case "Estatus":
-                    if (tipo_orden.ToLower() == "desc")
-                        Categorias = Categorias.OrderByDescending(x => x.Estatus).ToList();
-                    else if (tipo_orden.ToLower() == "asc")
-                        Categorias = Categorias.OrderBy(x => x.Estatus).ToList();
-                    break;
-
-                default:
-                    if (tipo_orden.ToLower() == "desc")
-                        Categorias = Categorias.OrderByDescending(x => x.IdCategoria).ToList();
-                    else if (tipo_orden.ToLower() == "asc")
-                        Categorias = Categorias.OrderBy(x => x.IdCategoria).ToList();
-                    break;
-            }
-
-            int TotalRegistros = 0;
-            int TotalPaginas = 0;
-
-            TotalRegistros = Categorias.Count();
-
-            Categorias = Categorias.Skip((pagina - 1) * registros_por_pagina)
-                                             .Take(registros_por_pagina)
-                                             .ToList();
-
-            TotalPaginas = (int)Math.Ceiling((double)TotalRegistros / registros_por_pagina);
-
-            PaginadorCategorias = new PaginadorGenerico<Categoria>()
-            {
-                RegistrosPorPagina = registros_por_pagina,
-                TotalRegistros = TotalRegistros,
-                TotalPaginas = TotalPaginas,
-                PaginaActual = pagina,
-                BusquedaActual = buscar,
-                OrdenActual = orden,
-                TipoOrdenActual = tipo_orden,
-                Resultado = Categorias
-            };
-
-            return PaginadorCategorias;
-        
+            return await categoriaBL.ObtenerTodosAsync();
         }
 
         [HttpGet("{idCategoria}")]
