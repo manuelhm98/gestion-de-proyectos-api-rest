@@ -32,9 +32,9 @@ namespace GestorDeProyectos.LogicaDeNegocios
             return await CategoriaDAL.ObtenerPorIdAsync(pCategoria);
         }
 
-        public async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string mueble = "")
+        public async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string categoria = "")
         {
-            return await CategoriaDAL.ListPagCategoria(page, pageSize, mueble);
+            return await CategoriaDAL.ListPagCategoria(page, pageSize, categoria);
         }
 
         public async Task<List<Categoria>> ObtenerTodosAsync()

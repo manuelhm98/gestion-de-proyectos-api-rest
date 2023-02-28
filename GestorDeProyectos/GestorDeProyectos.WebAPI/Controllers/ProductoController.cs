@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
@@ -19,6 +20,12 @@ namespace GestorDeProyectos.WebAPI.Controllers
     public class ProductoController : ControllerBase
     {
         private ProductoBL productoBL = new ProductoBL();
+
+        [HttpGet("paginated")]
+        public async Task<ListPagProducto> ListPagProducto(int page = 1, int pageSize = 5, string producto ="", string categoria = "")
+        {
+            return await productoBL.ListPagProducto(page, pageSize, producto, categoria);
+        }
 
         [HttpGet]
         public async Task<IEnumerable<Producto>> Get()

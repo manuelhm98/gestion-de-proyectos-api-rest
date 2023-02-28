@@ -59,17 +59,15 @@ namespace GestorDeProyectos.AccesoADatos
             return categoria;
         }
 
-        public static async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string name = "")
+        public static async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string categoria = "")
         {
 
             var model = new ListPagCategoria();
             using (var bdContexto = new BDContexto())
             {
                 var categorias = (from Categoria in bdContexto.Categoria
-                                  where Categoria.Estatus == 1 && Categoria.Nombre.Contains(name)
-                                  select Categoria).OrderByDescending(x => x.IdCategoria)
-                             .Skip((page - 1) * pageSize)
-                             .Take(pageSize).ToList();
+                                  where Categoria.Estatus == 1 && Categoria.Nombre.Contains(categoria)
+                                  select Categoria).OrderByDescending(x => x.IdCategoria).Skip((page - 1) * pageSize).Take(pageSize).ToList();
 
                 int totalRegistros = (from Categoria in bdContexto.Categoria
                                       where Categoria.Estatus == 1
