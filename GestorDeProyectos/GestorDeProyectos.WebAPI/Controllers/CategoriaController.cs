@@ -21,7 +21,7 @@ namespace GestorDeProyectos.WebAPI.Controllers
     {
         private CategoriaBL categoriaBL = new CategoriaBL();
 
-        [HttpGet]
+        [HttpGet("paginated")]
         public async Task<ListPagCategoria> ListPagCategoria(int page = 1, int pageSize = 5, string mueble = "")
         {
             return await categoriaBL.ListPagCategoria(page, pageSize, mueble);

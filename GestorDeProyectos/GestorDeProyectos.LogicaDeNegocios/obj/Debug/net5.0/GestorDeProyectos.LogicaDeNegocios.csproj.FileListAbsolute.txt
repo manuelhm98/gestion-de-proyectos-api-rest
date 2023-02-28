@@ -15,3 +15,20 @@ C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-re
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\ref\GestorDeProyectos.LogicaDeNegocios.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.deps.json
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.csproj.AssemblyReference.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.AssemblyInfoInputs.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.AssemblyInfo.cs
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.csproj.CopyComplete
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\refint\GestorDeProyectos.LogicaDeNegocios.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\GestorDeProyectos.LogicaDeNegocios.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.LogicaDeNegocios\obj\Debug\net5.0\ref\GestorDeProyectos.LogicaDeNegocios.dll

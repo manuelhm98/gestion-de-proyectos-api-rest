@@ -13,3 +13,18 @@ C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-re
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\ref\GestorDeProyectos.AccesoADatos.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.deps.json
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.AccesoADatos.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.AssemblyInfoInputs.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.AssemblyInfo.cs
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.csproj.CopyComplete
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\refint\GestorDeProyectos.AccesoADatos.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\GestorDeProyectos.AccesoADatos.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.AccesoADatos\obj\Debug\net5.0\ref\GestorDeProyectos.AccesoADatos.dll

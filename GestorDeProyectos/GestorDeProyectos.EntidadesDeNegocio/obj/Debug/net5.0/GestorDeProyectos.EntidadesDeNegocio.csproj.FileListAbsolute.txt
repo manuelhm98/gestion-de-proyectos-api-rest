@@ -10,3 +10,15 @@ C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-re
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\ref\GestorDeProyectos.EntidadesDeNegocio.dll
 C:\Users\DELL INSPIRON\OneDrive\Escritorio\Proyectos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.deps.json
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\bin\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.csproj.AssemblyReference.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.AssemblyInfoInputs.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.AssemblyInfo.cs
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\refint\GestorDeProyectos.EntidadesDeNegocio.dll
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\GestorDeProyectos.EntidadesDeNegocio.pdb
+C:\Users\Jmanu\Source\Repos\gestion-de-proyectos-api-rest\GestorDeProyectos\GestorDeProyectos.EntidadesDeNegocio\obj\Debug\net5.0\ref\GestorDeProyectos.EntidadesDeNegocio.dll
