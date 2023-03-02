@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2g4vnTt+LqfOf53McxIAEas8WabCPx5nkueVrlNPxOGcptN+oPxnFUGFjbeNU57EIiyhyGEUyZikyZbLO+dOtw==",
+  "dgSpecHash": "PbUe+SDmPVGwLfDZn7QOVolg393riPs0y25Y6GglKMQC4gw4RC1lrOrn999uBTuzhNVxQs9dbKbD54msVFqdyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL INSPIRON\\OneDrive\\Escritorio\\Proyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jmanu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jmanu\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jmanu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
