@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
@@ -19,6 +20,12 @@ namespace GestorDeProyectos.WebAPI.Controllers
     public class VentaController : ControllerBase
     {
         private VentaBL ventaBL = new VentaBL();
+
+        [HttpGet("paginated")]
+        public async Task<ListPagVenta> ListPagVenta(int page = 1, int pageSize = 5, string producto = "", string cliente = "")
+        {
+            return await ventaBL.ListPagVenta(page, pageSize, producto, cliente);
+        }
 
         [HttpGet]
         public async Task<IEnumerable<Venta>> Get()
