@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using System.Security.Cryptography;
 
 namespace GestorDeProyectos.AccesoADatos
@@ -95,6 +96,28 @@ namespace GestorDeProyectos.AccesoADatos
                 usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.IdUsuario == pUsuario.IdUsuario);
             }
             return usuario;
+        }
+
+        public static async Task<ListPagUsuario> ListPagUsuario(int page = 1, int pageSize = 5, string usuario = "", string rol = "")
+        {
+
+            var model = new ListPagUsuario();
+            using (var bdContexto = new BDContexto())
+            {
+                var usuarios = (from Usuario in bdContexto.Usuario.Include(c => c.Rol)
+                                 where Usuario.Estatus == 1 && Usuario.Nombre.Contains(usuario) && Usuario.Rol.Nombre.Contains(rol)
+                                 select Usuario).OrderByDescending(x => x.IdUsuario).Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+                int totalRegistros = (from Usuario in bdContexto.Usuario
+                                      where Usuario.Estatus == 1
+                                      select Usuario).Count();
+
+                model.Usuarios = usuarios;
+                model.paginaActual = page;
+                model.TotalRegistros = (int)Math.Ceiling((double)totalRegistros / pageSize);
+                model.RegistroPorPagina = pageSize;
+            }
+            return model;
         }
 
         public static async Task<List<Usuario>> ObtenerTodosAsync()

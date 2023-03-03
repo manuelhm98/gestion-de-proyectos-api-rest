@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 using GestorDeProyectos.WebAPI.Auth;
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
@@ -26,6 +27,12 @@ namespace GestorDeProyectos.WebAPI.Controllers
         public UsuarioController(IJwtAuthenticationService pAuthService)
         {
             authService = pAuthService;
+        }
+
+        [HttpGet("paginated")]
+        public async Task<ListPagUsuario> ListPagUsuario(int page = 1, int pageSize = 5, string usuario = "", string rol = "")
+        {
+            return await usuarioBL.ListPagUsuario(page, pageSize, usuario, rol);
         }
 
         [HttpGet]

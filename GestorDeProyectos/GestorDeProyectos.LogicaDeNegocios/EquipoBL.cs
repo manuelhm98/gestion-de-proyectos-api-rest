@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using GestorDeProyectos.AccesoADatos;
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 
 namespace GestorDeProyectos.LogicaDeNegocios
 {
@@ -30,6 +31,12 @@ namespace GestorDeProyectos.LogicaDeNegocios
         {
             return await EquipoDAL.ObtenerPorIdAsync(pEquipo);
         }
+
+        public async Task<ListPagEquipo> ListPagEquipo(int page = 1, int pageSize = 5, string equipo = "", string usuario = "")
+        {
+            return await EquipoDAL.ListPagEquipo(page, pageSize, equipo, usuario);
+        }
+
         public async Task<List<Equipo>> ObtenerTodosAsync()
         {
             return await EquipoDAL.ObtenerTodosAsync();

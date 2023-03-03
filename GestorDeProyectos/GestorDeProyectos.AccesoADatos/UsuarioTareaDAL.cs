@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 
 namespace GestorDeProyectos.AccesoADatos
 {
@@ -57,6 +58,29 @@ namespace GestorDeProyectos.AccesoADatos
                 usuarioTarea = await bdContexto.UsuarioTarea.FirstOrDefaultAsync(s => s.IdUsuarioTarea == pUsuarioTarea.IdUsuarioTarea);
             }
             return usuarioTarea;
+        }
+
+        public static async Task<ListPagUsuarioTarea> ListPagUsuarioTarea(int page = 1, int pageSize = 5, string usuario = "", string tarea = "")
+        {
+
+            var model = new ListPagUsuarioTarea();
+            using (var bdContexto = new BDContexto())
+            {
+                var usuarioTareas = (from UsuarioTarea in bdContexto.UsuarioTarea.Include(p => p.Usuario)
+                                                            .Include(c => c.Tarea)
+                              where UsuarioTarea.Estatus == 1 && UsuarioTarea.Usuario.Nombre.Contains(usuario) && UsuarioTarea.Tarea.Nombre.Contains(tarea)
+                              select UsuarioTarea).OrderByDescending(x => x.IdUsuarioTarea).Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+                int totalRegistros = (from UsuarioTarea in bdContexto.Usuario
+                                      where UsuarioTarea.Estatus == 1
+                                      select UsuarioTarea).Count();
+
+                model.UsuarioTareas = usuarioTareas;
+                model.paginaActual = page;
+                model.TotalRegistros = (int)Math.Ceiling((double)totalRegistros / pageSize);
+                model.RegistroPorPagina = pageSize;
+            }
+            return model;
         }
 
         public static async Task<List<UsuarioTarea>> ObtenerTodosAsync()
