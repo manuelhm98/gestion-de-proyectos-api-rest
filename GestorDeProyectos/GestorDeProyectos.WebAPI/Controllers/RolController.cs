@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
@@ -19,6 +20,12 @@ namespace GestorDeProyectos.WebAPI.Controllers
     public class RolController : ControllerBase
     {
         private RolBL rolBL = new RolBL();
+
+        [HttpGet("paginated")]
+        public async Task<ListPagRol> ListPagRol(int page = 1, int pageSize = 5, string rol = "", string tipoRol = "")
+        {
+            return await rolBL.ListPagRol(page, pageSize, rol, tipoRol);
+        }
 
         [HttpGet]
         public async Task<IEnumerable<Rol>> Get()

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 
 namespace GestorDeProyectos.AccesoADatos
 {
@@ -56,6 +57,28 @@ namespace GestorDeProyectos.AccesoADatos
                 tipoRol = await bdContexto.TipoRol.FirstOrDefaultAsync(s => s.IdTipoRol == pTipoRol.IdTipoRol);
             }
             return tipoRol;
+        }
+
+        public static async Task<ListPagTipoRol> ListPagTipoRol(int page = 1, int pageSize = 5, string tipoRol = "")
+        {
+
+            var model = new ListPagTipoRol();
+            using (var bdContexto = new BDContexto())
+            {
+                var tipoRoles = (from TipoRol in bdContexto.TipoRol
+                                 where TipoRol.Estatus == 1 && TipoRol.Nombre.Contains(tipoRol)
+                                  select TipoRol).OrderByDescending(x => x.IdTipoRol).Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+                int totalRegistros = (from TipoRol in bdContexto.TipoRol
+                                      where TipoRol.Estatus == 1
+                                      select TipoRol).Count();
+
+                model.TipoRoles = tipoRoles;
+                model.paginaActual = page;
+                model.TotalRegistros = (int)Math.Ceiling((double)totalRegistros / pageSize);
+                model.RegistroPorPagina = pageSize;
+            }
+            return model;
         }
 
         public static async Task<List<TipoRol>> ObtenerTodosAsync()

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PbUe+SDmPVGwLfDZn7QOVolg393riPs0y25Y6GglKMQC4gw4RC1lrOrn999uBTuzhNVxQs9dbKbD54msVFqdyA==",
+  "dgSpecHash": "woTNNl8ZmPh6n/93yFA78PqHsZGwhRlwkKYtAA1M8on+68AMJKqcAve9BuPi8cWaSTkZK41Hxeu1D9f/FpyTaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Jmanu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Jmanu\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Jmanu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

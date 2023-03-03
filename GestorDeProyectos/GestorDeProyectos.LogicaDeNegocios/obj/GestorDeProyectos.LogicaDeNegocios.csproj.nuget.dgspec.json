@@ -1,35 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj",
         "projectName": "GestorDeProyectos.AccesoADatos",
-        "projectPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj",
-        "packagesPath": "C:\\Users\\Jmanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\obj\\",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jmanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v5/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
+              "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
               }
             }
           }
@@ -55,53 +61,44 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
         "projectName": "GestorDeProyectos.EntidadesDeNegocio",
-        "projectPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
-        "packagesPath": "C:\\Users\\Jmanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\obj\\",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jmanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v5/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -124,63 +121,54 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj",
         "projectName": "GestorDeProyectos.LogicaDeNegocios",
-        "projectPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj",
-        "packagesPath": "C:\\Users\\Jmanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\obj\\",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\GestorDeProyectos.LogicaDeNegocios.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.LogicaDeNegocios\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jmanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v5/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj": {
-                "projectPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj"
+              "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.AccesoADatos\\GestorDeProyectos.AccesoADatos.csproj"
               },
-              "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
-                "projectPath": "C:\\Users\\Jmanu\\Projects\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
+              "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\OneDrive\\Escritorio\\GestorDeProyectos\\gestion-de-proyectos-api-rest\\GestorDeProyectos\\GestorDeProyectos.EntidadesDeNegocio\\GestorDeProyectos.EntidadesDeNegocio.csproj"
               }
             }
           }
@@ -200,31 +188,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

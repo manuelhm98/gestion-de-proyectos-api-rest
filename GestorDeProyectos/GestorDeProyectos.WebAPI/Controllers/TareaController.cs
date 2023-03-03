@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using GestorDeProyectos.EntidadesDeNegocio;
+using GestorDeProyectos.EntidadesDeNegocio.Paginación;
 using GestorDeProyectos.LogicaDeNegocios;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
@@ -19,6 +20,12 @@ namespace GestorDeProyectos.WebAPI.Controllers
     public class TareaController : ControllerBase
     {
         private TareaBL tareaBL = new TareaBL();
+
+        [HttpGet("paginated")]
+        public async Task<ListPagTarea> ListPagTarea(int page = 1, int pageSize = 5, string tarea = "", string proyecto = "")
+        {
+            return await tareaBL.ListPagTarea(page, pageSize, tarea, proyecto);
+        }
 
         [HttpGet]
         public async Task<IEnumerable<Tarea>> Get()
